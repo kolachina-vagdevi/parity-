@@ -115,7 +115,9 @@ private static short computeParityBasedOnClearingSetBit(long no) {
         }
 }
  public static void main(String[] args) {
-        long no = 1274849;
+        long no = x;
+	Scanner obj=new Scanner(System.in);
+        no=obj.nextInt();
         System.out.println("Binary representation of the number: " + Long.toBinaryString(no));
         System.out.println("Is Parity [computeParityBasedOnClearingSetBit]: " + computeParityBasedOnClearingSetBit(no));
         
